@@ -10,6 +10,4 @@ app.use(express.json());
 
 // use global error handler here
 
-module.exports = {
-    app
-};
+export default app;

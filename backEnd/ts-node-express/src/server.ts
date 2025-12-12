@@ -1,7 +1,7 @@
 // Server entry 
 
-import app from './app';
-import config from './config/config';
+const app = require ('./app.mjs');
+const config = require ('./config/config.mjs');
 
 app.listen(config.port, ()=> {
     console.log(`Server running on port ${config.port}`)
