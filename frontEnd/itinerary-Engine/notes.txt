@@ -1,0 +1,10 @@
+navbar
+search bar (take city input)
+results list
+
+integrate google maps
+-center map on searched city
+-markers for attractions (from backend)
+
+
+
