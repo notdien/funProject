@@ -15,4 +15,4 @@ const config: Config = {
     nodeEnv: process.env.NODE_ENV || 'development',
 };
 
-export default config;
+export = config;

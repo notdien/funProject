@@ -1,13 +1,13 @@
 import express = require('express');
-// import routes here
-// import error handling
-
 const app = express();
 
 app.use(express.json());
 
 // use routes here
+app.get('/ping', (req, res) => {
+    res.status(200).send('Server is running!');
+})
 
 // use global error handler here
 
-export default app;
+export = app;
