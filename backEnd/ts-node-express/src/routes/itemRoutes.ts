@@ -1,1 +1,0 @@
-// This is how you will RESTful route all your CRUDs
