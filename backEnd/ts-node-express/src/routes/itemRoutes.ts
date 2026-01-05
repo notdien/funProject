@@ -1,1 +1,1 @@
-// This is how you will RESTful route all your CRUDs
+// This is how you will define RESTful route all your CRUDs

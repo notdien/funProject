@@ -8,6 +8,8 @@ app.get('/ping', (req, res) => {
     res.status(200).send('Server is running!');
 })
 
+// testing out a weather api call
+
 // use global error handler here
 
 export = app;
